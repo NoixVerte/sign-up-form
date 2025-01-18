@@ -12,11 +12,54 @@
             <img src="odin.png" alt="Drawing of Odin's head">
             <span>ODIN</span>
         </div>
-        <p>Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        <p>
+            Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </p>
     </div>
     <main>
-        
+        <div class="header-text-wrapper">
+            <p>This is not a real online service! You know you need  something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> what to do.</p>
+        </div>
+        <div class="form-wrapper">
+            <p>Let's do this!</p>
+            <form action="/" method="post">
+                <div class="input-row">
+                    <div class="input-wrapper">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" minlength="1" maxlength="20" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="first-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" minlength="1" maxlength="20" required>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-wrapper">
+                        <label for="first-name">EMAIL</label>
+                        <input type="email" name="email" id="email" minlength="5" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="first-name">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" minlength="5" maxlength="20" required>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-wrapper">
+                        <label for="first-name">PASSWORD</label>
+                        <input type="password" name="password" id="password" minlength="10" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="first-name">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
     </main>
 </body>
 </html>
