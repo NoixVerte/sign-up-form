@@ -63,7 +63,7 @@ main {
 
 .header-text-wrapper {
     width: 60%;
-    padding-left: 2vw;
+    padding-left: 50px;
 
     & p {
         font-size: 1.5rem;
@@ -73,7 +73,7 @@ main {
 
 .form-wrapper {
     background-color: white;
-    padding-left: 2vw;
+    padding-left: 50px;
     margin-top: 10px;
 
     & p {
@@ -130,7 +130,7 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    margin-left: 2vw;
+    margin-left: 50px;
     margin-top: 10px;
 }
 
@@ -139,7 +139,7 @@ button:hover {
 }
 
 main > p {
-    padding-left: 2vw;
+    padding-left: 50px;
 
     & a {
         text-decoration: none;
